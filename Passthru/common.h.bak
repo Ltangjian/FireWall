@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+typedef struct _ParamConfig
+{
+	int bandwidth;
+	int dropProbability;
+	int latency;
+	int jitter;
+}ParamConfig;
+
+ParamConfig *paramdev;

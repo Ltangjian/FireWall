@@ -1,0 +1,46 @@
+MUI_386_OBJECTS= \
+    $(_OBJ_DIR)\i386\passthru.res
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\passthru.res \
+    $(_OBJ_DIR)\i386\miniport.obj \
+    $(_OBJ_DIR)\i386\passthru.obj \
+    $(_OBJ_DIR)\i386\protocol.obj \
+    $(_OBJ_DIR)\i386\analysispacket.obj \
+    $(_OBJ_DIR)\i386\hook.obj
+
+MUI_IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\passthru.res
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\passthru.res \
+    $(_OBJ_DIR)\ia64\miniport.obj \
+    $(_OBJ_DIR)\ia64\passthru.obj \
+    $(_OBJ_DIR)\ia64\protocol.obj \
+    $(_OBJ_DIR)\ia64\analysispacket.obj \
+    $(_OBJ_DIR)\ia64\hook.obj
+
+MUI_AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\passthru.res
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\passthru.res \
+    $(_OBJ_DIR)\amd64\miniport.obj \
+    $(_OBJ_DIR)\amd64\passthru.obj \
+    $(_OBJ_DIR)\amd64\protocol.obj \
+    $(_OBJ_DIR)\amd64\analysispacket.obj \
+    $(_OBJ_DIR)\amd64\hook.obj
+
+MUI_ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\passthru.res
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\passthru.res \
+    $(_OBJ_DIR)\arm\miniport.obj \
+    $(_OBJ_DIR)\arm\passthru.obj \
+    $(_OBJ_DIR)\arm\protocol.obj \
+    $(_OBJ_DIR)\arm\analysispacket.obj \
+    $(_OBJ_DIR)\arm\hook.obj
+
+PRECOMPILED_INCLUDE_BASENAME=precomp.h
+

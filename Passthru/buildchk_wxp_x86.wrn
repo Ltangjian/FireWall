@@ -1,0 +1,5 @@
+1>warnings in directory c:\passthru
+1>c:\passthru\passthru.c(617) : warning C4133: 'function' : incompatible types - from 'ParamConfig *' to 'ParamConfig *'
+1>c:\passthru\analysispacket.c(23) : warning C4996: 'ExAllocatePool': was declared deprecated
+1>c:\passthru\analysispacket.c(30) : warning C4133: '=' : incompatible types - from 'ParamConfig *' to 'ParamConfig *'
+1>c:\passthru\analysispacket.c(51) : warning C4133: '=' : incompatible types - from 'ParamConfig *' to 'ParamConfig *'
